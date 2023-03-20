@@ -1,9 +1,17 @@
-import { Component } from 'react';
+import React from 'react';
 
-class MovieList extends Component {
-    render() {
-        return <div>Movie list component</div>
-    }
-}
+const MovieList = ({movies}) => {
+	console.log(movies)
+	return (
+		<>
+		// <h1>Movie</h1>
+		// 	{movies.map((movie, index) => (
+		// 		<div className='image-container d-flex justify-content-start m-3'>
+		// 			<img src={movie.Poster} alt='movie'></img>
+		// 		</div>
+		// 	))}
+		</>
+	);
+};
 
 export default MovieList;
